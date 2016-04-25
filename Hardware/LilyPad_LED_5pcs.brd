@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.0001" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -209,6 +209,12 @@
 <text x="10.736578125" y="8.399784375" size="1.778" layer="22" font="vector" ratio="15" rot="MR0">-</text>
 <text x="24.13508125" y="-9.5275375" size="1.778" layer="51" font="vector" ratio="15">M. West</text>
 <text x="25.133296875" y="-7.0485" size="1.778" layer="51" font="vector" ratio="15">L. Buechley</text>
+<dimension x1="2.672078125" y1="10.784840625" x2="2.6035" y2="2.479040625" x3="-2.5058625" y3="6.674409375" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="2.67461875" y1="12.994640625" x2="2.67461875" y2="0.294640625" x3="-6.35" y3="6.644640625" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="2.672078125" y1="10.784840625" x2="25.044396875" y2="11.01598125" x3="13.814503125" y3="15.133425" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<text x="33.02" y="5.08" size="1.778" layer="51" font="vector" ratio="15">Board Thickness: 0.032"</text>
+<text x="33.02" y="2.54" size="1.778" layer="51" font="vector" ratio="15">Purple Silk</text>
+<text x="-27.94" y="19.05" size="1.778" layer="47" font="vector" ratio="15">All Units Inches</text>
 </plain>
 <libraries>
 <library name="SparkFun-LED">
