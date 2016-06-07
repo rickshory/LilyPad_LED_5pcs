@@ -194,7 +194,7 @@
 <text x="6.9062625" y="10.970259375" size="1.778" layer="21" font="vector" ratio="15" rot="R180">+</text>
 <text x="26.1340625" y="5.847078125" size="1.778" layer="21" font="vector" ratio="15" rot="R180">-</text>
 <text x="20.54098125" y="5.836915625" size="1.778" layer="21" font="vector" ratio="15" rot="R180">-</text>
-<text x="15.05458125" y="5.7658" size="1.778" layer="21" font="vector" ratio="15" rot="R180">-</text>
+<text x="15.07998125" y="5.7404" size="1.778" layer="21" font="vector" ratio="15" rot="R180">-</text>
 <text x="9.4615" y="5.778496875" size="1.778" layer="21" font="vector" ratio="15" rot="R180">-</text>
 <text x="3.766821875" y="5.60831875" size="1.778" layer="21" font="vector" ratio="15" rot="R180">-</text>
 <text x="24.140159375" y="5.84708125" size="1.778" layer="22" font="vector" ratio="15" rot="MR180">-</text>
@@ -216,6 +216,8 @@
 <dimension x1="2.672078125" y1="10.784840625" x2="2.6035" y2="2.479040625" x3="-3.01383125" y3="6.67860625" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 <wire x1="0" y1="12.954" x2="0" y2="6.604" width="0.254" layer="20"/>
 <wire x1="34.036" y1="5.588" x2="34.798" y2="6.35" width="0.254" layer="20"/>
+<wire x1="4.1402" y1="0.5842" x2="4.2926" y2="0.4318" width="0.254" layer="20"/>
+<wire x1="20.9042" y1="-0.6858" x2="21.1328" y2="-0.9144" width="0.254" layer="20"/>
 </plain>
 <libraries>
 <library name="SparkFun-LED">
@@ -555,26 +557,26 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="LED-3" library="LilyPad-Wearables" package="PETAL-SMALL-2SIDE" value="SEWTAP6" x="15.374621875" y="3.103878125"/>
 <element name="LED-4" library="LilyPad-Wearables" package="PETAL-SMALL-2SIDE" value="SEWTAP6" x="9.751059375" y="3.15721875"/>
 <element name="LED-5" library="LilyPad-Wearables" package="PETAL-SMALL-2SIDE" value="SEWTAP6" x="4.165603125" y="2.95401875"/>
-<element name="R1" library="SparkFun-Resistors" package="0603-RES" value="150" x="26.408378125" y="6.1366375">
-<attribute name="PROD-ID" value="13326" x="26.408378125" y="6.1366375" size="1.778" layer="27" display="off"/>
+<element name="R1" library="SparkFun-Resistors" package="0603-RES" value="150" x="26.662378125" y="6.1366375">
+<attribute name="PROD-ID" value="13326" x="26.662378125" y="6.1366375" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R2" library="SparkFun-Resistors" package="0603-RES" value="150" x="20.8381625" y="6.174740625">
-<attribute name="PROD-ID" value="13326" x="20.8381625" y="6.174740625" size="1.778" layer="27" display="off"/>
+<element name="R2" library="SparkFun-Resistors" package="0603-RES" value="150" x="20.8889625" y="6.174740625">
+<attribute name="PROD-ID" value="13326" x="20.8889625" y="6.174740625" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R3" library="SparkFun-Resistors" package="0603-RES" value="150" x="15.306040625" y="6.159496875">
-<attribute name="PROD-ID" value="13326" x="15.306040625" y="6.159496875" size="1.778" layer="27" display="off"/>
+<element name="R3" library="SparkFun-Resistors" package="0603-RES" value="150" x="15.407640625" y="6.159496875">
+<attribute name="PROD-ID" value="13326" x="15.407640625" y="6.159496875" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R4" library="SparkFun-Resistors" package="0603-RES" value="150" x="9.70788125" y="6.1620375">
 <attribute name="PROD-ID" value="13326" x="9.70788125" y="6.1620375" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R5" library="SparkFun-Resistors" package="0603-RES" value="150" x="4.05891875" y="6.18235625">
-<attribute name="PROD-ID" value="13326" x="4.05891875" y="6.18235625" size="1.778" layer="27" display="off"/>
+<element name="R5" library="SparkFun-Resistors" package="0603-RES" value="150" x="4.16051875" y="6.18235625">
+<attribute name="PROD-ID" value="13326" x="4.16051875" y="6.18235625" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U$1" library="LilyPad-Wearables" package="LOGO-L" value="" x="26.629359375" y="7.28218125" rot="MR0"/>
-<element name="U$2" library="LilyPad-Wearables" package="LOGO-L" value="" x="20.980396875" y="7.266940625" rot="MR0"/>
-<element name="U$3" library="LilyPad-Wearables" package="LOGO-L" value="" x="15.476221875" y="7.266940625" rot="MR0"/>
-<element name="U$4" library="LilyPad-Wearables" package="LOGO-L" value="" x="9.895840625" y="7.23138125" rot="MR0"/>
-<element name="U$5" library="LilyPad-Wearables" package="LOGO-L" value="" x="4.36371875" y="7.063740625" rot="MR0"/>
+<element name="U$1" library="LilyPad-Wearables" package="LOGO-L" value="" x="26.629359375" y="7.48538125" rot="MR0"/>
+<element name="U$2" library="LilyPad-Wearables" package="LOGO-L" value="" x="20.904196875" y="7.444740625" rot="MR0"/>
+<element name="U$3" library="LilyPad-Wearables" package="LOGO-L" value="" x="15.273021875" y="7.444740625" rot="MR0"/>
+<element name="U$4" library="LilyPad-Wearables" package="LOGO-L" value="" x="9.718040625" y="7.45998125" rot="MR0"/>
+<element name="U$5" library="LilyPad-Wearables" package="LOGO-L" value="" x="4.13511875" y="7.317740625" rot="MR0"/>
 <element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="-5.542278125" y="-7.134859375"/>
 <element name="U$6" library="SparkFun-Aesthetics" package="REVISION" value="REVISION" x="5.66928125" y="-9.8552"/>
 </elements>
@@ -582,8 +584,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <signal name="3">
 <contactref element="R1" pad="1"/>
 <contactref element="LED-1" pad="1"/>
-<wire x1="25.558378125" y1="6.1366375" x2="25.558378125" y2="4.164703125" width="0.4064" layer="1"/>
 <wire x1="25.558378125" y1="4.164703125" x2="26.537921875" y2="3.185159375" width="0.4064" layer="1"/>
+<wire x1="25.558378125" y1="4.164703125" x2="25.558378125" y2="5.8826375" width="0.4064" layer="1"/>
+<wire x1="25.558378125" y1="5.8826375" x2="25.812378125" y2="6.1366375" width="0.4064" layer="1"/>
 </signal>
 <signal name="1">
 <contactref element="LED+1" pad="1"/>
@@ -596,8 +599,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="R1" pad="2"/>
 <wire x1="28.09888125" y1="8.399778125" x2="28.09888125" y2="8.388478125" width="0.4064" layer="1"/>
 <wire x1="28.09888125" y1="8.388478125" x2="27.2262625" y2="7.515859375" width="0.4064" layer="1"/>
-<wire x1="27.2262625" y1="7.515859375" x2="27.2262625" y2="6.168753125" width="0.4064" layer="1"/>
-<wire x1="27.2262625" y1="6.168753125" x2="27.258378125" y2="6.1366375" width="0.4064" layer="1"/>
+<wire x1="27.2262625" y1="7.515859375" x2="27.2262625" y2="6.422753125" width="0.4064" layer="1"/>
+<wire x1="27.2262625" y1="6.422753125" x2="27.512378125" y2="6.1366375" width="0.4064" layer="1"/>
 </signal>
 <signal name="4">
 <contactref element="LED+2" pad="1"/>
@@ -611,13 +614,14 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="22.47278125" y1="8.37691875" x2="22.47278125" y2="8.322440625" width="0.4064" layer="1"/>
 <wire x1="22.47278125" y1="8.322440625" x2="21.6662" y2="7.515859375" width="0.4064" layer="1"/>
 <wire x1="21.6662" y1="7.515859375" x2="21.6662" y2="6.196703125" width="0.4064" layer="1"/>
-<wire x1="21.6662" y1="6.196703125" x2="21.6881625" y2="6.174740625" width="0.4064" layer="1"/>
+<wire x1="21.6662" y1="6.196703125" x2="21.7389625" y2="6.174740625" width="0.4064" layer="1"/>
 </signal>
 <signal name="6">
 <contactref element="R2" pad="1"/>
 <contactref element="LED-2" pad="1"/>
-<wire x1="19.9881625" y1="6.174740625" x2="19.9881625" y2="4.101196875" width="0.4064" layer="1"/>
 <wire x1="19.9881625" y1="4.101196875" x2="20.9042" y2="3.185159375" width="0.4064" layer="1"/>
+<wire x1="19.9881625" y1="4.101196875" x2="19.9881625" y2="6.123940625" width="0.4064" layer="1"/>
+<wire x1="19.9881625" y1="6.123940625" x2="20.0389625" y2="6.174740625" width="0.4064" layer="1"/>
 </signal>
 <signal name="7">
 <contactref element="LED+3" pad="1"/>
@@ -630,14 +634,16 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="R3" pad="2"/>
 <wire x1="16.8390625" y1="8.422640625" x2="16.83004375" y2="8.422640625" width="0.4064" layer="1"/>
 <wire x1="16.83004375" y1="8.422640625" x2="16.04518125" y2="7.637778125" width="0.4064" layer="1"/>
-<wire x1="16.04518125" y1="7.637778125" x2="16.04518125" y2="6.27035625" width="0.4064" layer="1"/>
-<wire x1="16.04518125" y1="6.27035625" x2="16.156040625" y2="6.159496875" width="0.4064" layer="1"/>
+<wire x1="16.04518125" y1="6.27035625" x2="16.257640625" y2="6.159496875" width="0.4064" layer="1"/>
+<wire x1="16.04518125" y1="7.637778125" x2="16.04518125" y2="6.37195625" width="0.4064" layer="1"/>
+<wire x1="16.04518125" y1="6.37195625" x2="16.257640625" y2="6.159496875" width="0.4064" layer="1"/>
 </signal>
 <signal name="9">
 <contactref element="R3" pad="1"/>
 <contactref element="LED-3" pad="1"/>
-<wire x1="14.456040625" y1="6.159496875" x2="14.456040625" y2="4.022459375" width="0.4064" layer="1"/>
 <wire x1="14.456040625" y1="4.022459375" x2="15.374621875" y2="3.103878125" width="0.4064" layer="1"/>
+<wire x1="14.456040625" y1="4.022459375" x2="14.456040625" y2="6.057896875" width="0.4064" layer="1"/>
+<wire x1="14.456040625" y1="6.057896875" x2="14.557640625" y2="6.159496875" width="0.254" layer="1"/>
 </signal>
 <signal name="12">
 <contactref element="R4" pad="1"/>
@@ -671,13 +677,14 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="5.7265625" y1="8.2702375" x2="5.7265625" y2="8.238621875" width="0.4064" layer="1"/>
 <wire x1="5.7265625" y1="8.238621875" x2="4.9022" y2="7.414259375" width="0.4064" layer="1"/>
 <wire x1="4.9022" y1="7.414259375" x2="4.9022" y2="6.189075" width="0.4064" layer="1"/>
-<wire x1="4.9022" y1="6.189075" x2="4.90891875" y2="6.18235625" width="0.4064" layer="1"/>
+<wire x1="4.9022" y1="6.189075" x2="5.01051875" y2="6.18235625" width="0.4064" layer="1"/>
 </signal>
 <signal name="15">
 <contactref element="R5" pad="1"/>
 <contactref element="LED-5" pad="1"/>
-<wire x1="3.20891875" y1="6.18235625" x2="3.20891875" y2="3.910703125" width="0.4064" layer="1"/>
 <wire x1="3.20891875" y1="3.910703125" x2="4.165603125" y2="2.95401875" width="0.4064" layer="1"/>
+<wire x1="3.20891875" y1="3.910703125" x2="3.20891875" y2="6.08075625" width="0.254" layer="1"/>
+<wire x1="3.20891875" y1="6.08075625" x2="3.31051875" y2="6.18235625" width="0.254" layer="1"/>
 </signal>
 </signals>
 <errors>
